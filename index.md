@@ -1,15 +1,15 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-venue: "SURF (Utrecht)"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Moreelsepark 48, Utrecht (Central Station / Hoog Catharijne)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+venue: "the Netherlands eScience Center"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "Netherlands"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-latitude: "52.089060"     # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "5.113430"    # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "April 15-16, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00am - 5:00pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-04-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-04-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+latitude: ""     # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: ""    # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "April 14-17, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:30am - 12:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2020-04-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-04-17        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Faruk Diblen", "Pablo Rodríguez Sánchez", "Johan Hidding"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Evert Rol", "Sarah Alidoost", "Jaro Camphuijsen"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["training@esciencecenter.nl", "j.hidding@esciencecenter.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -121,10 +121,7 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
+  We will use <a href="https://zoom.us">ZOOM</a> conferencing platform. Please make install and test it in advance. Learn more about how to prepare and join the call from the <a href="https://support.zoom.us/hc/en-us/articles/201362193-Joining-a-Meeting">ZOOM help pages</a>.
 </p>
 {% endif %}
 
@@ -147,7 +144,7 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
+  <strong>Requirements:</strong> Participants must connect from a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
@@ -156,7 +153,7 @@ ACCESSIBILITY
 
 Modify the block below if there are any barriers to accessibility or
 special instructions.
-{% endcomment %}
+
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
@@ -174,7 +171,7 @@ special instructions.
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
-
+{% endcomment %}
 {% comment %}
 CONTACT EMAIL ADDRESS
 
